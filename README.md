@@ -1,43 +1,42 @@
-# 🖥️ Screen Translator
+# 📷 Screen Translator
 
-**Screen Translator** is a Python desktop application that allows users to select any region of the screen, extract the visible text using OCR (Optical Character Recognition), detect the source language, and instantly translate it to a language of their choice.
+**Screen Translator** is a simple desktop app that lets you:
+- Select a region of your screen
+- Extract text from it using OCR (Tesseract)
+- Translate the extracted text into your desired language
+
+It’s perfect for reading text from images, scanned documents, screenshots, or videos.
+
+---
 
 ## ✨ Features
 
-- 🖼️ Snipping Tool-style region selection
-- 🔎 Accurate OCR using Tesseract
-- 🌐 Language detection and translation
-- 📝 Editable extracted text before translation
-- 📋 One-click copy of translated text
-- 🧠 Clean and responsive Tkinter-based UI
+- ✅ Snipping Tool-style region selector
+- ✅ OCR using [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
+- ✅ Multi-language support (English, Spanish, French, German, Japanese, Korean, Chinese, and more)
+- ✅ Text translation using DeepL or Google Translate backend
+- ✅ Editable OCR result before translation
+- ✅ Copy translated text easily
 
-## 📸 Demo
+---
 
-> _Coming soon: Screenshots or short GIF showing the app in action._
+## 🖥️ Screenshot
 
-## 🚀 Installation
+![Screen Translator UI](screenshot.png)
 
-1. **Clone the repository**
-     ```bash
-   git clone https://github.com/your-username/screen-translator.git
-   cd screen-translator
-   
-2. Install dependencies
-pip install -r requirements.txt
+---
 
-3.Make sure Tesseract is installed
-Install from Tesseract GitHub or use:
+## 📦 How to Use
 
-sudo apt install tesseract-ocr  # Linux
-choco install tesseract         # Windows (with Chocolatey)
+### 💡 Standalone App (Recommended)
 
-🌍 Supported Languages
-English
-Spanish
-French
-German
-Chinese (Simplified)
-Japanese
-Korean
 
-Want more languages? Just update the languages dictionary in app.py.
+1. Download the latest release and unzip it.
+2. Double-click the app inside dist to launch the translator.
+3. Click "Select Region & Translate".
+4. Choose the region on screen containing text.
+5. See the OCR result and translated output.
+
+> Create a shortcut of the app so that it will be easy to access
+> No need to install Python or Tesseract separately — it's bundled inside the app!
+
