@@ -18,6 +18,26 @@
 ## 🚀 Installation
 
 1. **Clone the repository**
-   ```bash
+     ```bash
    git clone https://github.com/your-username/screen-translator.git
    cd screen-translator
+   
+2. Install dependencies
+pip install -r requirements.txt
+
+3.Make sure Tesseract is installed
+Install from Tesseract GitHub or use:
+
+sudo apt install tesseract-ocr  # Linux
+choco install tesseract         # Windows (with Chocolatey)
+
+🌍 Supported Languages
+English
+Spanish
+French
+German
+Chinese (Simplified)
+Japanese
+Korean
+
+Want more languages? Just update the languages dictionary in app.py.
